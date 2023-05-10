@@ -1,0 +1,79 @@
+{
+  "name": "CursoRPA_Platzi",
+  "description": "Este proyecto contiene todas las clases vistas en el curso de automatizacion de procesos RPA con platzi",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.OCR.LocalServer": "[1.5.1]",
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.IntelligentOCR.Activities": "[6.9.0]",
+    "UiPath.Mail.Activities": "[1.19.0]",
+    "UiPath.OCR.Activities": "[3.15.1]",
+    "UiPath.OCR.Contracts": "[2.14.0]",
+    "UiPath.PDF.Activities": "[3.14.0]",
+    "UiPath.System.Activities": "[23.5.0-preview]",
+    "UiPath.Testing.Activities": "[23.5.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.5.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\EscribirHolaMundoPlantilla.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\EscribirHolaMundoPlantilla1.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\EscribirHolaMundo.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "0cbad5fc-f222-4941-b88e-4dd18baca415",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
